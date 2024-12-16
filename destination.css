@@ -1,0 +1,198 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+.banner-card{
+	position:relative;
+}
+
+.banner-card img{
+	max-width:100%;
+	height: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: "Times New Roman"
+}
+
+.centered1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+
+.flex-container{
+	background-color: black;
+	display:flex;
+}
+
+
+nav{
+	flex:1;
+	text-decoration:none;
+	color:white;
+	padding:25px;
+}
+
+a {
+	flex:1;
+	text-decoration:none;
+	color:white;
+	padding:12px;
+}
+
+
+
+
+
+
+
+h1{
+	color:white;
+	font-size:20px;
+}
+
+span:before
+{
+	content:'Panda';
+	animation:animate infinite 8s;
+}
+
+@keyframes animate
+{
+	0%
+	{
+	content:'Beijing';
+	}
+	33.33%
+	{
+	content:'Wuxi';
+	}
+	66.666%
+	{
+	content:'Shanghai';
+	}
+	100%
+	{
+	content:'Guangzhou';
+	}
+}
+
+
+
+
+
+
+.heading a{
+	color:black;
+	font-size:40px;
+	font-weight:bold;
+	font-family: "Times New Roman";
+}
+
+
+.wrapper{
+	width:100%;
+	height:100%;
+	display:flex;
+	margin:10px;
+	justify-content:center;
+	align-items:center;
+
+}
+.image{
+	width:100%;
+	position:relative;
+}
+
+img{
+	width:100%;
+	display:block;
+	margin:auto;
+}
+
+.content{
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	position:absolute;
+	background:rgba(0,0,0,0.6);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction: column;
+	opacity:0;
+	transition:0.5s;
+}
+
+
+.content:hover{
+	opacity:1;
+}
+
+.content h1{
+	font-size:45px;
+	color:white;
+	margin-bottom:5px;
+}
+
+.content h3{
+	font-size:35px;
+	color:white;
+	text-align:center;
+}
+
+
+.content p{
+	font-size:20px;
+	color:white;
+	text-align:center;
+}
+.content > *{
+	transform:translateY(25px);
+	transition: transform 0.5s;
+}
+
+.content:hover > *{
+	transform:translateY(0px);
+}
+#footer{
+	background-color:black;
+}
+#footer p{
+	padding:10px;
+	text-align:center;
+	color:white;
+	font-size:25px;
+	font-family: "Times New Roman";
+}
+
+#footer a{
+	text-align:center;
+	display: flex;
+	flex-direction: column;
+	font-size:20px;
+	font-family: "Times New Roman"
+}
+
+
+
+
+
+

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>repl.it</title>
+    <link href="css.css" rel="stylesheet" type="text/css" />
+  </head>
+	    <script src="script.js"></script>
+  <body>
+	
+    <!-- <div id="banner" class="container"> --!>
+		<nav class="flex-container" id="navbar" style="background-color:rgb(25, 28, 41)">
+			<a href="index.html"> <img src="logo.png" style="width:120px;" style="height:30px;"> </a> 
+			<a href="destination.html">DESTINATION</a>
+			<a href="cuisine.html">CUISINE</a> 
+			<a href="tradition.html">TRADITION</a> 
+		</nav>
+	<!-- </div>	--!>
+	
+		<div class="container">
+			<img src="chongqiu.jpg" alt="Chongqiu" style="width:100%; opacity:0.9">
+			<div class="centered">CHINA</div>
+			<h1 class="centered1"> --<span> </span> Country--</h1> 
+		</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			
+<div class="slides" style="padding:20px;">	
+		
+		<div class="slideshow-container">
+
+	<div class="mySlides fade">
+		<div class="numbertext">1 / 4</div>
+		<img src="https://www.tripsavvy.com/thmb/CkK6Ea7k9bSqtGsXjYNU3hW3KBs=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1154244047-a9b413b875fb40f086f125783c681876.jpg" style="width:100%">
+		<div class="text" style="font-size:20px; text-shadow: 2px 1px black;">~Tour the World of China~</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">2 / 4</div>
+		<img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iPxw.WrQlVSc/v1/-1x-1.jpg" style="width:100%">
+		<div class="text" style="font-size:20px; text-shadow: 2px 1px black;">~Explore~</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">3 / 4</div>
+		<img src="https://aws.wideinfo.org/thekitchngic.com/wp-content/uploads/2021/12/08163337/featured-1.jpg" style="width:100%">
+		<div class="text" style="font-size:20px; text-shadow: 2px 1px black;">~Flavor~</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">4 / 4</div>
+		<img src="https://cdn1.matadornetwork.com/blogs/1/2020/01/traditional-chinese-performer-1200x852.jpg" style="width:100%">
+		<div class="text" style="font-size:20px; text-shadow: 2px 1px black;">~Experience~</div>
+	</div>
+
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span> 
+	<span class="dot" onclick="currentSlide(2)"></span> 
+	<span class="dot" onclick="currentSlide(3)"></span> 
+   <span class="dot" onclick="currentSlide(4)"></span>
+	</div>
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="heading" style="padding-top:15px;" style="padding-left:15px;">
+		<a href="destination.html">DESTINATION </a>
+	</div>
+	
+
+	<div class="responsive">
+		<div class="gallery" style="background-color:rgb(115, 180, 230)">
+			<a target="_blank" href="destination.html">
+				<img src="https://www.tripsavvy.com/thmb/lYca00p7LOrYt1buwYraG3sL04E=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/chinese-temple-and-forbidden-city-in-a-day-636217080-f9f58e9618db4409b22733fcf9591901.jpg" alt="Beijing" width="600px" height="auto">
+			</a>
+			<div class="desc">Forbidden City, Beijing</div>
+		</div>
+	</div>
+
+
+	<div class="responsive">
+		<div class="gallery" style="background-color:rgb(115, 180, 230)">
+			<a target="_blank" href="destination.html">
+				<img src="YuanTouZhu.jpg" alt="Wuxi" width="600px" height="auto">
+			</a>
+		<div class="desc">YuanTouZhu, Wuxi</div>
+		</div>
+	</div>
+
+	<div class="responsive">
+		<div class="gallery" style="background-color:rgb(115, 180, 230)">
+			<a target="_blank" href="destination.html">
+				<img src="pearltower.jpg" alt="Pearl Tower" width="600px" height="auto">
+			</a>
+			<div class="desc">Pearl Tower, ShangHai</div>
+		</div>
+	</div>
+
+	<div class="responsive">
+		<div class="gallery" style="background-color:rgb(115, 180, 230)">
+			<a target="_blank" href="destination.html">
+				<img src="cantoncity.jpg" alt="CantonCity" width="600px" height="auto">
+			</a>
+			<div class="desc">Canton Tower, GuangZhou</div>
+		</div>
+	</div>
+
+		<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+	<div class="heading" style="padding-top:15px;" style="padding-left:15px;">
+		<a href="destination.html">CUISINE </a>
+	</div>
+	
+	
+
+	<div class="responsive">
+		<div class="gallery" style="background-color:rgb(115, 180, 230)">
+			<a target="_blank" href="destination.html">
+				<img src="https://api.vip.foodnetwork.ca/wp-content/uploads/2023/05/spring-rolls-feat4.jpg" alt="SpringRolls" width="600px" height="auto">
+			</a>
+			<div class="desc">Spring Rolls</div>
+		</div>
+	</div>
+
+
+	<div class="responsive">
+		<div class="gallery" style="background-color:rgb(115, 180, 230)">
+			<a target="_blank" href="destination.html">
+				<img src="chowmein.jpg" alt="Wuxi" width="600px" height="auto">
+			</a>
+		<div class="desc">Chow Mein</div>
+		</div>
+	</div>
+
+	<div class="responsive">
+		<div class="gallery" style="background-color:rgb(115, 180, 230)">
+			<a target="_blank" href="destination.html">
+				<img src="https://images.saymedia-content.com/.image/t_share/MTk1NDMzNjQzNDY3NTQ3Njcx/how-to-make-chinese-food-and-what-to-pay-attention-to.png" alt="Pearl Tower" width="600px" height="auto">
+			</a>
+			<div class="desc">Hot Pot</div>
+		</div>
+	</div>
+
+	<div class="responsive">
+		<div class="gallery" style="background-color:rgb(115, 180, 230)">
+			<a target="_blank" href="destination.html">
+				<img src="https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2023/01/Youtiao-Chinese-dough-sticks-13-of-14.jpg?im=AspectCrop=(16,9);Resize,width=718;" alt="youtiao" width="600px" height="auto">
+			</a>
+			<div class="desc">Youtiao</div>
+		</div>
+	</div>
+
+		<div class="clearfix"></div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<div class="heading" style="padding-top:15px;" style="padding-left:15px;">
+		<a href="tradition.html"> CULTURE </a>
+	</div>
+	
+	
+
+	<div class="responsive">
+		<div class="gallery" style="background-color:rgb(115, 180, 230)">
+			<a target="_blank" href="destination.html">
+				<img src="newyear.jpg" alt="ChineseNewYears" width="600px" height="auto">
+			</a>
+			<div class="desc">Chinese New Years</div>
+		</div>
+	</div>
+
+
+	<div class="responsive">
+		<div class="gallery" style="background-color:rgb(115, 180, 230)">
+			<a target="_blank" href="destination.html">
+				<img src="boat.jpg" alt="DragonBoatFestival" width="600px" height="auto">
+			</a>
+		<div class="desc">Dragon Boat Festival</div>
+		</div>
+	</div>
+
+	<div class="responsive">
+		<div class="gallery" style="background-color:rgb(115, 180, 230)">
+			<a target="_blank" href="destination.html">
+				<img src="autumnfest.webp" alt="Mid-AutumnFestival" width="600px" height="auto">
+			</a>
+			<div class="desc">Mid-Autumn Festival</div>
+		</div>
+	</div>
+
+	<div class="responsive">
+		<div class="gallery" style="background-color:rgb(115, 180, 230)">
+			<a target="_blank" href="destination.html">
+				<img src="chineseopera.jpg" alt="ChineseOpera" width="600px" height="auto">
+			</a>
+			<div class="desc">Chinese Opera</div>
+		</div>
+	</div>
+
+		<div class="clearfix"></div>
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+		
+		
+		
+        <div id="right" class="container center" style="flex:1;">
+          <h2>Sample Code</h2>
+        </div>
+    </div>
+	
+    <div id="footer" class="container center">
+      <p> Jennifer Wang 2024</p>
+	  	<a href="destination.html">Destination</a>
+		<a href="cuisine.html">Cuisine</a> 
+		<a href="tradition.html">Culture</a> 
+    </div>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
